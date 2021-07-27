@@ -6,16 +6,17 @@ export default function Home() {
   return (
     <div
       style={{
-        position: 'relative',
-        height: 0,
-        zIndex: -10
+        position: 'absolute',    
+        top: 0,
+        left: 0,    
+        zIndex: -10,
+        width: '100vw'
+        
       }}
-    >
+    > test text
       <div
         style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
+          position: 'relative',
           zIndex: 10
         }}
       >
