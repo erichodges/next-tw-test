@@ -6,29 +6,30 @@ export default function Home() {
   return (
     <div
       style={{
-        position: 'absolute',    
-        top: 0,
-        left: 0,    
-        zIndex: -10,
+        position: 'relative',      
         width: '100vw'
         
       }}
-    > test text
-      <div
-        style={{
-          position: 'relative',
-          zIndex: 10
-        }}
-      >
-        <Image
-          src='https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg'
-          alt='car'
-          width='2400'
-          height='1200'
-          layout='responsive'
-          priority='true'
-        />
-      </div>
+    > 
+    <Image
+      src='https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg'
+      alt='car'
+      width='2400'
+      height='1200'
+      layout='responsive'
+      priority='true'
+    />
+    <h2 style={{
+      position: 'absolute',
+      top: '0',
+      left: '0',
+      width: '100vw'
+      }}
+    >
+    Text Text
+    </h2>
+
     </div>
   );
 }
+
