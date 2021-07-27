@@ -19,7 +19,7 @@ export default function Home() {
       layout='responsive'
       priority='true'
     />
-    <h2 style={{
+    <h2 className="absolute items-center text-xl" style={{
       position: 'absolute',
       top: '0',
       left: '0',
