@@ -12,7 +12,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
+    "eslint": "6.8.0",
     "postcss": "^8.3.5",
+    "prettier": "1.9.1",
+    "prettier-eslint": "10.1.0",
     "tailwindcss": "^2.2.4"
   }
 }
